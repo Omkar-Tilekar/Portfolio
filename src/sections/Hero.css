@@ -1,0 +1,135 @@
+.hero-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-top: var(--nav-height);
+    padding-bottom: 8rem;
+    /* Ensure space for the ticker at the bottom */
+    position: relative;
+}
+
+.hero-content {
+    max-width: 800px;
+}
+
+.hero-title {
+    font-size: clamp(3rem, 8vw, 5rem);
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+    letter-spacing: -1px;
+}
+
+.hero-subtitle {
+    font-size: clamp(1.2rem, 3vw, 2rem);
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.hero-tagline {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    margin-bottom: 2.5rem;
+    max-width: 600px;
+    line-height: 1.8;
+    font-style: italic;
+    border-left: 3px solid var(--accent-primary);
+    padding-left: 1rem;
+}
+
+.hero-actions {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+}
+
+.hero-socials {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.social-icon {
+    color: var(--text-secondary);
+    transition: all var(--transition-fast);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+}
+
+.social-icon:hover {
+    color: var(--accent-primary);
+    transform: translateY(-3px);
+    border-color: var(--accent-primary);
+    box-shadow: 0 0 15px var(--accent-glow);
+}
+
+/* Auto-Scrolling Ticker */
+.hero-ticker-wrapper {
+    position: absolute;
+    bottom: 2rem;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    padding: 1rem 0;
+    background: linear-gradient(90deg, transparent, rgba(0, 210, 255, 0.05) 20%, rgba(0, 210, 255, 0.05) 80%, transparent);
+    border-top: 1px solid rgba(0, 210, 255, 0.1);
+    border-bottom: 1px solid rgba(0, 210, 255, 0.1);
+}
+
+.hero-ticker {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+}
+
+.ticker-track {
+    display: flex;
+    white-space: nowrap;
+    animation: scroll 30s linear infinite;
+    align-items: center;
+}
+
+.ticker-track:hover {
+    animation-play-state: paused;
+}
+
+.ticker-item {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    padding: 0 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: monospace;
+}
+
+.ticker-dot {
+    color: var(--accent-primary);
+    font-size: 1.2rem;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-ticker-wrapper {
+        bottom: 1rem;
+    }
+
+    .ticker-item {
+        font-size: 0.9rem;
+        padding: 0 1rem;
+    }
+}
