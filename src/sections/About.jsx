@@ -17,6 +17,10 @@ export function About() {
                         </p>
 
                         <p>
+                            I am currently working as an AI Engineering Intern, building production-grade LLM applications for the healthcare domain. My work includes developing RAG pipelines, AI agent workflows, FastAPI microservices, and deploying scalable AI solutions. Alongside this, I recently completed the AWS Certified Cloud Practitioner certification and am expanding my expertise in cloud-native AI and DevOps.
+                        </p>
+
+                        <p>
                             My core focus areas revolve around building intelligent AI systems, Retrieval-Augmented Generation (RAG), Large Language Models (LLMs), and scalable full-stack architectures. I am deeply interested in building end-to-end AI products that solve real-world problems.
                         </p>
 

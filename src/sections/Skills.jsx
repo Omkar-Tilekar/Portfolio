@@ -10,7 +10,7 @@ const skillCategories = [
     },
     {
         title: 'AI / ML',
-        skills: ['Machine Learning', 'Deep Learning', 'CNNs', 'Transfer Learning', 'Model Training & Evaluation', 'NLP', 'RAG', 'LLMs', 'Agent-based Systems']
+        skills: ['Machine Learning', 'Deep Learning', 'RAG', 'LLMs', 'LangGraph', 'LangChain', 'Prompt Engineering', 'AI Agents', 'Vector Databases', 'Semantic Search', 'LLM APIs', 'CNNs', 'Transfer Learning', 'Model Training & Evaluation', 'NLP']
     },
     {
         title: 'Frameworks & Tools',
@@ -18,7 +18,11 @@ const skillCategories = [
     },
     {
         title: 'Web / Full Stack',
-        skills: ['React', 'Vite', 'HTML', 'CSS', 'JavaScript', 'FastAPI', 'REST APIs', 'Node.js', 'Express', 'EJS']
+        skills: ['React', 'FastAPI', 'REST APIs', 'Node.js', 'Express', 'JavaScript', 'HTML', 'CSS', 'Vite', 'EJS']
+    },
+    {
+        title: 'Cloud & DevOps',
+        skills: ['AWS', 'EC2', 'S3', 'IAM', 'VPC', 'RDS', 'Docker', 'Linux', 'Git', 'GitHub']
     },
     {
         title: 'Data & Analytics',

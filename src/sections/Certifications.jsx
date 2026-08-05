@@ -5,6 +5,12 @@ import './Certifications.css';
 
 const certifications = [
     {
+        name: 'AWS Certified Cloud Practitioner',
+        issuer: 'Amazon Web Services',
+        status: 'Completed',
+        link: ''
+    },
+    {
         name: 'Machine Learning',
         issuer: 'NPTEL',
         status: 'Completed',
