@@ -4,19 +4,14 @@ import './Experience.css';
 
 const experiences = [
     {
-        role: 'AI Engineering Intern',
-        company: 'Amberflux',
+        role: 'Artificial Intelligence Intern',
+        company: 'AmberFlux EdgeAI Pvt. Ltd.',
         duration: 'March 2026 - Present',
         description: [
-            'Worked on production-grade AI systems for a medical-legal evaluation platform used by California doctors.',
-            'Built and optimized LLM-powered workflows using LangGraph and LangChain.',
-            'Developed RAG (Retrieval-Augmented Generation) pipelines with vector databases.',
-            'Integrated multiple LLM APIs for intelligent document analysis.',
-            'Designed FastAPI microservices and REST APIs for AI applications.',
-            'Implemented prompt engineering and LLM evaluation workflows.',
-            'Worked with semantic search, embeddings, and document processing.',
-            'Collaborated on production deployment and backend improvements.',
-            'Tech Stack: Python, FastAPI, LangChain, LangGraph, RAG, LLM APIs, Vector Databases, AWS, Git, Docker'
+            'Designed and built a production-oriented RAG pipeline for a medical–legal system, focusing on accuracy, traceability, and low hallucination.',
+            'Developed retrieval, context construction, and structured generation workflows for section-wise report creation.',
+            'Implemented validation and guardrails for output verification and gap detection.',
+            'Collaborated with backend and database teams to integrate AI modules into end-to-end workflows.'
         ]
     },
     {
